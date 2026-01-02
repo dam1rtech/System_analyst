@@ -1,0 +1,54 @@
+{
+  "status": "success",
+  "screen": "partner_store_selector",
+  "generatedAt": "2026-01-02T18:45:12Z",
+  "stores": [
+    {
+      "id": "metro",
+      "name": "METRO",
+      "logoUrl": "https://cdn.petrushka-green.ru/partners/metro.png",
+      "deliveryType": "time_slot",
+      "nearestDelivery": {
+        "date": "2026-01-02",
+        "from": "21:00",
+        "to": "23:00"
+      },
+      "deeplink": "https://shop.metro.ru/?partner=petrushka"
+    },
+    {
+      "id": "auchan",
+      "name": "Ашан",
+      "logoUrl": "https://cdn.petrushka-green.ru/partners/auchan.png",
+      "deliveryType": "time_slot",
+      "nearestDelivery": {
+        "date": "2026-01-02",
+        "from": "18:00",
+        "to": "20:00"
+      },
+      "deeplink": "https://www.auchan.ru/delivery/?utm_source=petrushka"
+    },
+    {
+      "id": "vkusvill",
+      "name": "ВкусВилл",
+      "logoUrl": "https://cdn.petrushka-green.ru/partners/vkusvill.png",
+      "deliveryType": "fast",
+      "deliveryTimeMinutes": {
+        "min": 20,
+        "max": 60
+      },
+      "deeplink": "https://vkusvill.ru/delivery/?ref=petrushka"
+    },
+    {
+      "id": "victoria",
+      "name": "Виктория",
+      "logoUrl": "https://cdn.petrushka-green.ru/partners/victoria.png",
+      "deliveryType": "time_slot",
+      "nearestDelivery": {
+        "date": "2026-01-02",
+        "from": "17:00",
+        "to": "19:00"
+      },
+      "deeplink": "https://victoria-group.ru/?source=petrushka"
+    }
+  ]
+}
